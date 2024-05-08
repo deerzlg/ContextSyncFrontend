@@ -1,0 +1,21 @@
+{
+  "name": "@webviewer/core",
+  "version": "0.0.1",
+  "description": "Bussiness logic for WebViewer",
+  "license": "ISC",
+  "author": "deerzlg <728182915@qq.com>",
+  "sideEffects": "false",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "peerDependencies": {
+    "@umijs/max": "^4.1.10",
+    "antd": "^5.15.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,2 @@
+//忽略掉全局样式文件的stylelint检查，不然@tailwind会报错
+src/global.less

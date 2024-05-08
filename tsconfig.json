@@ -1,0 +1,4 @@
+{
+  // 使用umi max生成的tsconfig.json
+  "extends": "./platform/app/tsconfig.json"
+}

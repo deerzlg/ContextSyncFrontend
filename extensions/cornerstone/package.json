@@ -1,0 +1,24 @@
+{
+  "name": "@webviewer/extension-cornerstone",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "scripts": {},
+  "dependencies": {
+    "@webviewer/ui": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "peerDependencies": {
+    "@umijs/max": "^4.1.10",
+    "@webviewer/core": "workspace:^",
+    "antd": "^5.15.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
