@@ -1,4 +1,5 @@
-import { useToolContext, useViewportGridContext } from '@/context';
+import { useViewportGridContext } from '@/context';
+import { useToolStore } from '@/context/toolManager';
 import { Checkbox, notification } from 'antd';
 import { useEffect, useState } from 'react';
 import LayoutSelectorButton from './LayoutSelector';
@@ -12,7 +13,7 @@ type NotificationType = 'success' | 'info' | 'warning' | 'error';
 export default function Page() {
   const [isWebSocketSync, setIsWebSocketSync] = useState(false);
   const [ws, setWs] = useState<WebSocket | null>(null);
-  const { toolDispatch } = useToolContext();
+  const { setActiveTool } = useToolStore();
   const { viewportGridDispatch } = useViewportGridContext();
 
   const [api, contextHolder] = notification.useNotification();
@@ -72,15 +73,10 @@ export default function Page() {
         // 当接收到消息时，解析消息并调用 对应的dispatch
         const message = JSON.parse(event.data);
         const { dispatch, type, payload } = message;
-        const dispatchMap: Record<string, any> = {
-          toolDispatch,
-          viewportGridDispatch,
-        };
-
-        if (dispatchMap[dispatch]) {
-          dispatchMap[dispatch]({ type, payload });
-        } else {
-          openNotification('error', 'Invalid Dispatch');
+        if (dispatch === 'setActiveTool') {
+          setActiveTool(payload);
+        } else if (dispatch === 'viewportGridDispatch') {
+          viewportGridDispatch({ type, payload });
         }
       };
     } else {

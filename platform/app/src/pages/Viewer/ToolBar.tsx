@@ -1,6 +1,6 @@
 import { Button } from 'antd';
 
-import { useToolContext } from '@/context/toolManager';
+import { useToolStore } from '@/context/toolManager';
 
 interface ToolBarProps {
   ws: WebSocket | null;
@@ -8,7 +8,7 @@ interface ToolBarProps {
 }
 
 const ToolBar: React.FC<ToolBarProps> = ({ ws, isWebSocketSync }) => {
-  const { toolState, toolDispatch } = useToolContext();
+  const { activeTool, setActiveTool } = useToolStore();
 
   const tools = [
     'Rectangle',
@@ -23,13 +23,12 @@ const ToolBar: React.FC<ToolBarProps> = ({ ws, isWebSocketSync }) => {
     if (isWebSocketSync) {
       ws?.send(
         JSON.stringify({
-          dispatch: 'toolDispatch',
-          type: 'SET_ACTIVE_TOOL',
+          dispatch: 'setActiveTool',
           payload: tool,
         }),
       );
     }
-    toolDispatch({ type: 'SET_ACTIVE_TOOL', payload: tool });
+    setActiveTool(tool);
   };
 
   return (
@@ -38,7 +37,7 @@ const ToolBar: React.FC<ToolBarProps> = ({ ws, isWebSocketSync }) => {
         <Button
           key={tool}
           onClick={() => handleClick(tool)}
-          type={toolState.activeTool === tool ? 'primary' : 'default'}
+          type={activeTool === tool ? 'primary' : 'default'}
         >
           {tool}
         </Button>

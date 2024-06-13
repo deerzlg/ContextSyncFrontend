@@ -55,7 +55,7 @@ importers:
     dependencies:
       '@umijs/max':
         specifier: ^4.1.10
-        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
+        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
       '@webviewer/core':
         specifier: workspace:^
         version: link:../../platform/core
@@ -80,7 +80,7 @@ importers:
     dependencies:
       '@umijs/max':
         specifier: ^4.1.10
-        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
+        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
       antd:
         specifier: ^5.15.4
         version: 5.17.0(date-fns@2.30.0)(moment@2.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -105,7 +105,7 @@ importers:
         version: 2.7.1(@types/lodash.merge@4.6.9)(antd@5.17.0(date-fns@2.30.0)(moment@2.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@umijs/max':
         specifier: ^4.1.10
-        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
+        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
       '@webviewer/core':
         specifier: workspace:^
         version: link:../core
@@ -127,6 +127,9 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
+      zustand:
+        specifier: ^4.5.2
+        version: 4.5.2(@types/react@18.3.1)(immer@8.0.4)(react@18.3.1)
     devDependencies:
       '@types/lodash.merge':
         specifier: ^4.6.9
@@ -157,7 +160,7 @@ importers:
     dependencies:
       '@umijs/max':
         specifier: ^4.1.10
-        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
+        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
       antd:
         specifier: ^5.15.4
         version: 5.17.0(date-fns@2.30.0)(moment@2.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -176,7 +179,7 @@ importers:
     dependencies:
       '@umijs/max':
         specifier: ^4.1.10
-        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
+        version: 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)
       antd:
         specifier: ^5.15.4
         version: 5.17.0(date-fns@2.30.0)(moment@2.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -515,6 +518,9 @@ packages:
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
+
+  '@babel/runtime@7.0.0-beta.46':
+    resolution: {integrity: sha512-/3a3USMKk54BEHhDgY8rtxtaQOs4bp4aQwo6SDtdwmrXmgSgEusWuXNX5oIs/nwzmTD9o8wz2EyAjA+uHDMmJA==}
 
   '@babel/runtime@7.23.6':
     resolution: {integrity: sha512-zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==}
@@ -2536,6 +2542,10 @@ packages:
   core-js-pure@3.37.0:
     resolution: {integrity: sha512-d3BrpyFr5eD4KcbRvQ3FTUx/KWmaDesr7+a3+1+P46IUnNoEt+oiLijPINZMEon7w9oGkIINWxrBAU9DEciwFQ==}
 
+  core-js@2.6.12:
+    resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
+    deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+
   core-js@3.34.0:
     resolution: {integrity: sha512-aDdvlDder8QmY91H88GzNi9EtQi2TjvQhpCX6B1v/dAZHU1AuLgHvRh54RiOerpEhEW46Tkf+vgAViB/CWC0ag==}
 
@@ -2839,8 +2849,8 @@ packages:
   duplexify@4.1.3:
     resolution: {integrity: sha512-M3BmBhwJRZsSx38lZyhE53Csddgzl5R7xGJNk7CVddZD6CcmwMCH8J+7AprIrQKH7TonKxaCjcv27Qmf+sQ+oA==}
 
-  dva-core@1.5.0-beta.2:
-    resolution: {integrity: sha512-xmtr/J63EZXBdVXNBW+QCD7p9CaE8kAo2U1faRyv3PIGcy0G3Y6IBDNtoBB/Cj3nzk/jvX0dv96Hnh1kpSnI7Q==}
+  dva-core@1.4.0:
+    resolution: {integrity: sha512-g1CnnF80+oGTUv9qZCc5vndkPHwoODiAGzdcGFMbT78+SmrbYgbvO5wyRBGvebmLYyaTJt4tLqvHIP+UYJoxkQ==}
     peerDependencies:
       redux: 3.x
 
@@ -2859,8 +2869,8 @@ packages:
     peerDependencies:
       dva-core: ^1.1.0 || ^1.5.0-0 || ^1.6.0-0
 
-  dva@2.5.0-beta.2:
-    resolution: {integrity: sha512-kc2+CHhF1cNIU3Rg1miMhHgOKJ/VDrq9d6ynVBZf1EN2YKWU3MVFq/uTTBqMr2qkR0m9f8VKHOFmfKLtfMI93Q==}
+  dva@2.4.1:
+    resolution: {integrity: sha512-ggj/P4lYa+7GBZuNua2Sn8rDjhbb2Mjt9THUKlunSYSBwIVU5xFIBkCB87JBPc274ojL9h/hKOmVFVFlWzlRpg==}
     peerDependencies:
       react: 15.x || ^16.0.0-0
       react-dom: 15.x || ^16.0.0-0
@@ -5931,8 +5941,8 @@ packages:
   react-merge-refs@1.1.0:
     resolution: {integrity: sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==}
 
-  react-redux@5.1.2:
-    resolution: {integrity: sha512-Ns1G0XXc8hDyH/OcBHOxNgQx9ayH3SPxBnFCOidGKSle8pKihysQw2rG/PmciUQRoclhVBO8HMhiRmGXnDja9Q==}
+  react-redux@5.0.7:
+    resolution: {integrity: sha512-5VI8EV5hdgNgyjfmWzBbdrqUkrVRKlyTKk1sGH3jzM2M2Mhj/seQgPXaz6gVAj2lz/nz688AdTqMO18Lr24Zhg==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0-0 || ^16.0.0-0
       redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
@@ -6091,6 +6101,9 @@ packages:
 
   regenerate@1.4.2:
     resolution: {integrity: sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==}
+
+  regenerator-runtime@0.11.1:
+    resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
 
   regenerator-runtime@0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
@@ -7187,6 +7200,21 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
+  zustand@4.5.2:
+    resolution: {integrity: sha512-2cN1tPkDVkwCy5ickKrI7vijSjPksFRfqS6237NzT0vqSsztTNnQdHw9mmN7uBdk3gceVXU0a+21jFzFzAc9+g==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      '@types/react': '>=16.8'
+      immer: '>=9.0.6'
+      react: '>=16.8'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      immer:
+        optional: true
+      react:
+        optional: true
+
 snapshots:
 
   '@ahooksjs/use-request@2.8.15(react@18.3.1)':
@@ -7875,6 +7903,11 @@ snapshots:
     dependencies:
       '@babel/core': 7.24.5
       '@babel/helper-plugin-utils': 7.24.5
+
+  '@babel/runtime@7.0.0-beta.46':
+    dependencies:
+      core-js: 2.6.12
+      regenerator-runtime: 0.11.1
 
   '@babel/runtime@7.23.6':
     dependencies:
@@ -8936,7 +8969,7 @@ snapshots:
 
   '@types/history@5.0.0':
     dependencies:
-      history: 4.10.1
+      history: 5.3.0
 
   '@types/hoist-non-react-statics@3.3.5':
     dependencies:
@@ -8996,7 +9029,7 @@ snapshots:
       '@types/history': 4.7.11
       '@types/react': 18.3.1
       '@types/react-router': 5.1.20
-      redux: 3.7.2
+      redux: 4.2.1
 
   '@types/react-router@5.1.20':
     dependencies:
@@ -9283,10 +9316,10 @@ snapshots:
       - supports-color
       - typescript
 
-  '@umijs/max@4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)':
+  '@umijs/max@4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/node@20.12.10)(@types/react-dom@18.3.0)(@types/react@18.3.1)(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(lightningcss@1.22.1)(prettier@3.2.5)(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.4)(terser@5.31.0)(type-fest@0.21.3)(typescript@5.4.5)(webpack@5.91.0)':
     dependencies:
       '@umijs/lint': 4.1.10(eslint@8.35.0)(stylelint@14.8.2)(typescript@5.4.5)
-      '@umijs/plugins': 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/react-dom@18.3.0)(@types/react@18.3.1)(antd@4.24.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@umijs/plugins': 4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/react-dom@18.3.0)(@types/react@18.3.1)(antd@4.24.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       antd: 4.24.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       eslint: 8.35.0
       stylelint: 14.8.2
@@ -9342,7 +9375,7 @@ snapshots:
     dependencies:
       tsx: 3.12.2
 
-  '@umijs/plugins@4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/react-dom@18.3.0)(@types/react@18.3.1)(antd@4.24.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@umijs/plugins@4.1.10(@babel/core@7.24.5)(@types/lodash.merge@4.6.9)(@types/react-dom@18.3.0)(@types/react@18.3.1)(antd@4.24.16(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(rc-field-form@2.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@ahooksjs/use-request': 2.8.15(react@18.3.1)
       '@ant-design/antd-theme-variable': 1.0.0
@@ -9360,7 +9393,7 @@ snapshots:
       babel-plugin-styled-components: 2.1.4(@babel/core@7.24.5)(styled-components@6.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       dayjs: 1.11.11
       dva-core: 2.0.4(redux@4.2.1)
-      dva-immer: 1.0.1(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      dva-immer: 1.0.1(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       dva-loading: 3.0.24(dva-core@2.0.4(redux@4.2.1))
       event-emitter: 0.3.5
       fast-deep-equal: 3.1.3
@@ -10471,6 +10504,8 @@ snapshots:
 
   core-js-pure@3.37.0: {}
 
+  core-js@2.6.12: {}
+
   core-js@3.34.0: {}
 
   core-util-is@1.0.3: {}
@@ -10783,9 +10818,9 @@ snapshots:
       readable-stream: 3.6.2
       stream-shift: 1.0.3
 
-  dva-core@1.5.0-beta.2(redux@3.7.2):
+  dva-core@1.4.0(redux@3.7.2):
     dependencies:
-      '@babel/runtime': 7.24.5
+      '@babel/runtime': 7.0.0-beta.46
       flatten: 1.0.3
       global: 4.4.0
       invariant: 2.2.4
@@ -10805,10 +10840,10 @@ snapshots:
       redux-saga: 0.16.2
       warning: 3.0.0
 
-  dva-immer@1.0.1(dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
+  dva-immer@1.0.1(dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
     dependencies:
       '@babel/runtime': 7.24.5
-      dva: 2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      dva: 2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       immer: 8.0.4
 
   dva-loading@3.0.24(dva-core@2.0.4(redux@4.2.1)):
@@ -10816,20 +10851,20 @@ snapshots:
       '@babel/runtime': 7.24.5
       dva-core: 2.0.4(redux@4.2.1)
 
-  dva@2.5.0-beta.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  dva@2.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@babel/runtime': 7.24.5
+      '@babel/runtime': 7.0.0-beta.46
       '@types/isomorphic-fetch': 0.0.34
       '@types/react-router-dom': 4.3.5
       '@types/react-router-redux': 5.0.27
-      dva-core: 1.5.0-beta.2(redux@3.7.2)
+      dva-core: 1.4.0(redux@3.7.2)
       global: 4.4.0
       history: 4.10.1
       invariant: 2.2.4
       isomorphic-fetch: 2.2.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-redux: 5.1.2(react@18.3.1)(redux@3.7.2)
+      react-redux: 5.0.7(react@18.3.1)(redux@3.7.2)
       react-router-dom: 4.3.1(react@18.3.1)
       react-router-redux: 5.0.0-alpha.9(react@18.3.1)
       redux: 3.7.2
@@ -14528,16 +14563,15 @@ snapshots:
 
   react-merge-refs@1.1.0: {}
 
-  react-redux@5.1.2(react@18.3.1)(redux@3.7.2):
+  react-redux@5.0.7(react@18.3.1)(redux@3.7.2):
     dependencies:
-      '@babel/runtime': 7.24.5
-      hoist-non-react-statics: 3.3.2
+      hoist-non-react-statics: 2.5.5
       invariant: 2.2.4
+      lodash: 4.17.21
+      lodash-es: 4.17.21
       loose-envify: 1.4.0
       prop-types: 15.8.1
       react: 18.3.1
-      react-is: 16.13.1
-      react-lifecycles-compat: 3.0.4
       redux: 3.7.2
 
   react-redux@8.1.3(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1):
@@ -14740,6 +14774,8 @@ snapshots:
       regenerate: 1.4.2
 
   regenerate@1.4.2: {}
+
+  regenerator-runtime@0.11.1: {}
 
   regenerator-runtime@0.13.11: {}
 
@@ -16014,3 +16050,11 @@ snapshots:
       yargs-parser: 21.1.1
 
   yocto-queue@0.1.0: {}
+
+  zustand@4.5.2(@types/react@18.3.1)(immer@8.0.4)(react@18.3.1):
+    dependencies:
+      use-sync-external-store: 1.2.0(react@18.3.1)
+    optionalDependencies:
+      '@types/react': 18.3.1
+      immer: 8.0.4
+      react: 18.3.1

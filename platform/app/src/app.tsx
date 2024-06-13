@@ -1,10 +1,6 @@
 // 运行时配置
 import config from '@/../public/config/default';
-import {
-  AppConfigProvider,
-  ToolProvider,
-  ViewportGridProvider,
-} from '@/context';
+import { AppConfigProvider, ViewportGridProvider } from '@/context';
 import React from 'react';
 window.config = config;
 
@@ -19,9 +15,7 @@ export function rootContainer(container: React.ReactNode) {
 
   return (
     <ViewportGridProvider>
-      <ToolProvider>
-        <AppConfigProvider value={config}>{container}</AppConfigProvider>
-      </ToolProvider>
+      <AppConfigProvider value={config}>{container}</AppConfigProvider>
     </ViewportGridProvider>
   );
 }
